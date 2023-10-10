@@ -5,7 +5,7 @@
 # Site
 title: 茶馆诗集
 subtitle: '《茶馆的诗集们！》'
-description: '万众瞩目的《茶馆的诗集们！》终于开售啦（bushi）'
+description: '这里是茶馆的大家创作的诗篇！万众瞩目的《茶馆的诗集们！》终于开售啦（bushi）'
 keywords:
 author: 白隐Hakuin
 language: zh-Hans
@@ -97,9 +97,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: frame
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Search
+search:
+path: search.xml
+field: all
+content: true
+format: html
