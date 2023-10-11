@@ -7,7 +7,7 @@ site_brand_name: 茶馆诗集
 
 logo_image:
   enable: false
-  image_path: /logo.png # path to your logo image
+  image_path: /images/狗哥看了都说好.png # path to your logo image
 
 menu:
   扉页: /
@@ -24,7 +24,7 @@ scripts:
 - /js/menu.js
 
 # favicon
-favicon: /favicon.ico
+favicon: /images/狗哥看了都说好.ico
 
 date_format: MMM D, YYYY
 
@@ -32,7 +32,7 @@ date_format: MMM D, YYYY
 profile:
   title: 《茶馆的诗集们！》
   body: 这里是茶馆的大家创作的诗篇集合！万众瞩目的《茶馆的诗集们！》终于开售啦（bushi）
-  image: /profile_cover.png
+  image: /images/狗哥看了都说好.jpg
 
   links:
     扉页: /
