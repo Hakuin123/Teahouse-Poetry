@@ -1,17 +1,14 @@
-English | [简体中文](README-CN.md)
-
 ![cover](https://clio-space-1300725494.cos.ap-guangzhou.myqcloud.com/frame/featured_img/hexo_cover.jpg)
 
-Frame is a minimal hexo theme. Inspired by traditional paintings and their frames, Frame is designed to showcase personal blogs, profiles, or portfolios in a concise and elegant way.
+Frame 是一个极简风格的 hexo 主题。Frame 的主题设计如同一个简洁优雅的画框，适合用来展示你的个人博客或者作品集。
 
-[👉 Demo Site](https://frame.zhangyongqi.com/)
+[👉 示例网站](https://frame.zhangyongqi.com/)
 
-## Getting started
+## 开始使用
 
-### Installation
+### 安装
 
-If this is your first time using hexo, please go to the official [hexo website](https://hexo.io/) to install and initialize your hexo project. Then, clone the theme in your hexo project:
-
+如果这是你第一次使用 hexo，请移步 hexo 的 [官方网站](https://hexo.io/zh-cn/) 学习如何安装和建站。然后，请在你的 hexo 项目主题文件夹下安装 Frame：
 
 ```
 # go to your hexo theme folder
@@ -21,53 +18,52 @@ cd themes
 git clone https://github.com/zoeingwingkei/frame.git
 ```
 
-### Configuration
+### 主题配置
 
-Go to the hexo configuration file `config.yml`, and change the following theme settings:
+在 hexo 项目的 `config.yml` 文件里， 将你的项目主题换成 Frame:
 
 ```
 theme: frame
 ```
 
-### Run Server
+### 运行主题
 
-Now that **Frame** is all set up 👌. You can test the theme through:
+现在 Frame 主题就已经设置完成了👌，你可以在本地运行你的 hexo 项目来测试一下：
 
 ```
 hexo server
 ```
 
-## Color Mode
+## 主题色
 
-Frame provides 3 color modes: default, classic and dark.
+Frame 提供三种不同的主题色：Default 默认，Classic 经典和 Dark 暗色。
 
 ![color mode](https://clio-space-1300725494.cos.ap-guangzhou.myqcloud.com/frame/featured_img/color_mode.jpg)
 
-To change the color mode, go to the `config.yml` file under the `frame` theme folder, and modify the following settings:
+你可以在 `frame` 主题文件夹下面的 `config.yml` 文件修改主题色的配置：
 
 ```
 # color mode: default / classic / dark
 color_mode: classic
 ```
 
-## Gallery View
+## Gallery 模式
 
-Frame provides a gallery view, where blog posts are presented with their featured images and tags. Simply add a category "gallery" to your post, then it would be listed in the gallery view.
+在 `gallery` 视图模式下，文章会连同封面图和标签一起展示。只需将你的文章加入到 `gallery` 这个分类里即可。
 
 ```
 categories:
 - [gallery]
 ```
-
-The featured image of the post can also be added to the [Front-matter](https://hexo.io/docs/front-matter) of the post:
+文章的封面图链接需要写在 `markdown` 文件的 [Front-matter](https://hexo.io/zh-cn/docs/front-matter) 里：
 
 ```
 featured_image: /path/to/your/image.jpg 
 ```
 
-## Profile Page
+## 博客主页
 
-The profile page, or the home page, is the very first page of your site. By default, there is a title, some body text, several links and a profile image on this page. You can customize the content of your profile at the `config.yml` file of the theme:
+默认情况下，你的主页会展示标题，正文，一些链接以及一个封面图。你可以在主题文件夹下的 `config.yml` 文件里修改这些配置： 
 
 ```
 # profile
@@ -82,17 +78,17 @@ profile:
   	Projects: /categories/gallery/
 ```
 
-In case you prefer to customize your profile page, go to `frame/layout/pages/profile.ejs` and modify the layout and style of your own page, have fun 🙌.
+如果你想要进一步个性化你的个人主页，请到 `frame/layout/pages/profile.ejs` 里修改你的主页结构和风格，在此祝你设计愉快 🙌
 
-## Tag Page
+## 标签页
 
-Frame provides a tag cloud on the `/tag/` page, which contains all possible tags in your blog. In order to set up the tag cloud, you need to create a hexo page named `tag`. 
+网站的 `/tag/` 页面会列出这个博客里所有的标签。在此之前你需要新建一个名为 `tag` 的 hexo 页面。
 
 ```
 hexo new page tag
 ```
 
-Inside the `source/tag/index.html` file, type the following:
+然后，在 `source/tag/index.html` 文件下, 输入以下申明:
 
 ```
 ---
@@ -101,11 +97,11 @@ layout: tag
 ---
 ```
 
-## Configurations
+## 配置项
 
-### Header
+### 页头
 
-The header is simply consist of a site logo and a navigation menu, you can change those content at the `config.yml` file under the theme folder. You can upload an image as the site logo, otherwise it would be your site name.
+主题的页头由网站 Logo 和菜单栏组成，你可以在主题文件夹下的 `config.yml` 文件里修改这些配置。在默认的状态下，网站 Logo 为你的网站名，你也可以自行上传图片作为你的网站 Logo。
 
 ```
 # header
@@ -122,9 +118,9 @@ menu:
   About: /about/
 ```
 
-### Footer
+### 页脚
 
-You can also customize the content of your footer at the `config.yml` file:
+同样的，你可以在 `config.yml` 文件里修改页脚的配置： 
 
 ```
 # footer
@@ -141,41 +137,39 @@ footer:
     content: Customized content.
 ```
 
-### Favicon
+### 网站图标
 
-Add your own favicon of the website at the `frame/source/` folder, then configure it at the `config.yml` file:
+你可以在 `frame/source/` 文件夹里添加你的网站图标，然后在 `config.yml` 里添加这个图标的路径：
 
 ```
 # favicon
 favicon: /favicon.ico
 ```
 
-### Math
+### 数学公式
 
-In case you would like to use math equations in your blog, go to the `config.yml` file and turn on the [MathJax](*https://github.com/hexojs/hexo-math*) tool:
+如果你需要在你的博客里书写数学公式，那么你需要在 `config.yml` 文件里开启 [MathJax](*https://github.com/hexojs/hexo-math*) 工具：
 
 ```
 # mathjax setting
 mathjax_enable: true
 ```
-
-Note: if you haven't install the hexo math plugin, you need to install it first:
+注意：如果你还未安装 hexo 的数学公式插件，你需要先将其安装在你的 hexo 项目里：
 
 ```
 npm i hexo-math --save
 ```
 
-### Blog Comments
+### 评论系统
 
-Frame now supports third-party comment systems: [valine](https://valine.js.org/) and [disqus](https://disqus.com/). A detailed description can be found in [this post](https://frame.zhangyongqi.com/2021/11/11/comment/).
+Frame 现在支持的第三方评论系统有：[valine](https://valine.js.org/) 和 [disqus](https://disqus.com/)。详细的用法介绍请参考[这篇文章](https://frame.zhangyongqi.com/2021/11/11/comment/)。
 
-### Local Search
+### 本地搜索
 
-Frame now supports local search with the hexo plugin [hexo-generator-searchdb](https://github.com/theme-next/hexo-generator-searchdb).  A detailed description can be found in [this post](https://frame.zhangyongqi.com/2022/08/05/local-search/).
+Frame 现在支持使用 [hexo-generator-searchdb](https://github.com/theme-next/hexo-generator-searchdb) 的本地搜索功能。详细的用法介绍请参考[这篇文章](https://frame.zhangyongqi.com/2022/08/05/local-search/)。
 
-## License
+## 版权
 
-This project is released under [MIT License](https://opensource.org/licenses/MIT).
+此项目使用 [MIT License](https://opensource.org/licenses/MIT)。
 
-All the images used in the [demo site](https://frame.zhangyongqi.com) are the works from Claude Monet (1840 - 1926), which is considered to be in the public domain in its country of origin and other countries and areas.
-
+在 [示例网站](https://frame.zhangyongqi.com) 里所展示的所有图片均来自克劳德·莫奈（Claude Monet，1840 - 1926）的作品，目前其作品在其原属国家和其他国家地区都属于公共版权的范畴内。
