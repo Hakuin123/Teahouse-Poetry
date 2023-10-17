@@ -7,10 +7,12 @@ title: 后记
 主创团队：茶馆的大家
 网站制作：[白隐Hakuin（白熊）](https://www.HK256.top)
 诗篇收集：明兮 & 白熊
+GitHub 仓库：[点击此处](https://github.com/Hakuin123/Teahouse-Poetry)
+Vercel 部署状态：[![Vercel](https://vercelbadge.vercel.app/api/hakuin123/teahouse-poetry)](https://vercel.com/hakuin123/teahouse-poetry)
 
 感谢每一位创作者！你们是诗集的主创团队！如果没有你们的话，这篇诗集也就不会存在…谢谢你们写出了这么多优秀的诗篇！
 
-感谢每一位鉴赏家！你们是创作者的动力来源！激励着更优秀的诗篇的孕育…
+感谢每一位鉴赏家！你们是创作者的动力来源！激励着更美丽的诗篇的孕育…
 
 **谢谢大家！！**
 
