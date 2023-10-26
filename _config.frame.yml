@@ -12,8 +12,9 @@ logo_image:
 menu:
   扉页: /
   诗篇鉴赏: /archives/
+  名家一览: /tag/
   # Gallery: /categories/gallery/
-  # About: /about/
+  后记: /about/
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -31,13 +32,14 @@ date_format: MMM D, YYYY
 # profile
 profile:
   title: 《茶馆的诗集们！》
-  body: 这里是茶馆的大家创作的诗篇集合！万众瞩目的《茶馆的诗集们！》终于开售啦（bushi）
+  body: 这里是茶馆的大家创作的诗篇集合！万众瞩目的《茶馆的诗集们！》终于发布啦～
   image: /images/狗哥看了都说好.jpg
 
   links:
     扉页: /
     诗篇鉴赏: /archives/
-    名家一览: /tags/
+    名家一览: /tag/
+    文集一览（建设中）: /categories/ 
     琴棋书画（建设中）: /categories/gallery/
     后记: /about/
 
@@ -74,7 +76,7 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
 disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
   enable: false
   disqus_url: # your diqsuq url or shortname
-  language: 'en'
+  language: 'cn'
 
 # local search
 local_search:

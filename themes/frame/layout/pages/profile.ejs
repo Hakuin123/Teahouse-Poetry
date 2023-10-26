@@ -11,6 +11,11 @@
         <div class="profile-body">
             <%=theme.profile.body%>
         </div>
+        <div>
+        <p style="font-size: 16px">
+        “川流奔袭，江山静野，茶馆楼头。看长江流水，瓢舟叶影；片风舸雨，鸿雁飞洲。千骑平冈，搏击东彩，万斩辽云叛怅停。”  ——明兮<a href=/p/9132>《沁园春·茶馆》</a>
+        </p>
+        </div>
         <% Object.keys(theme.profile.links).forEach(key => { %>
             <div class="profile-link">
                 <a href="<%= url_for(theme.profile.links[key])%>"><%=key%></a> 

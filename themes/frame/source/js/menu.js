@@ -3,7 +3,7 @@ function toggleMenu() {
     var menuButton = document.getElementById("menu-btn");  
     if(menuList.classList.contains("active")){
       menuList.classList.remove("active");
-      menuButton.innerHTML = "菜单";
+      menuButton.innerHTML = "目录";
     }else{
       menuList.classList.add("active");
       menuButton.innerHTML = "<div class=\"icon arrow-up\"> </div>";
