@@ -72,10 +72,10 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
   appId: lvSbd25K9zYgC31kSzR65eY2-gzGzoHsz
   appKey: AS5wHlsOHA6cDzSObIJDCVEr
   lang: 'zh-CN'
-  placeholder: '在此留下鉴赏评价…'
+  placeholder: '在此留下鉴赏评价…\n（PS：昵称、邮箱和链接都是非必填的啦）'
   avatar: 'hide'
   enableQQ: true
-  meta: ['nick', 'mail']
+  meta: ['nick', 'mail', 'link']
 
 
 
