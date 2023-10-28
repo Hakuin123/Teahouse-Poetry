@@ -1,6 +1,6 @@
 
 # html lang
-language: zh-cn
+language: zh-CN
 
 # header
 site_brand_name: 茶馆诗集
@@ -63,20 +63,29 @@ color_mode: default
 # note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
 mathjax_enable: false
 
+
+
+
 # comments: support disqus and valine
 valine: # valine setup guide: https://valine.js.org/quickstart.html
-  enable: false
-  appId: # Your valine app Id
-  appKey: # Your valine app Key
-  lang: 'en'
-  placeholder: 'Say something'
-  avatar: 'mp'
+  enable: true
+  appId: lvSbd25K9zYgC31kSzR65eY2-gzGzoHsz
+  appKey: AS5wHlsOHA6cDzSObIJDCVEr
+  lang: 'zh-CN'
+  placeholder: '在此留下鉴赏评价…'
+  avatar: 'hide'
+  enableQQ: true
   meta: ['nick', 'mail']
+
+
+
 
 disqus: # disqus setup guide: https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide
   enable: false
   disqus_url: # your diqsuq url or shortname
   language: 'cn'
+
+
 
 # local search
 local_search:

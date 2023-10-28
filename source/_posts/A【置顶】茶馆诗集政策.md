@@ -1,6 +1,7 @@
 ---
 title: 【置顶】茶馆诗集政策
 permalink: /policy/
+abbrlink: 46670
 ---
 
 # 茶馆诗集政策
