@@ -82,7 +82,7 @@ valine: # valine setup guide: https://valine.js.org/quickstart.html
   emojiCDN: '//i0.hdslb.com/bfs/emote/'
   # 表情title和图片映射 
   emojiMaps:
-  - tv_doge: '6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png'
+  - tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
   - tv_亲亲: a8111ad55953ef5e3be3327ef94eb4a39d535d06.png
   - tv_偷笑: bb690d4107620f1c15cff29509db529a73aee261.png
   - tv_再见: 180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png
