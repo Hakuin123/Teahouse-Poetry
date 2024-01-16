@@ -1,6 +1,5 @@
 ---
 title: 茶馆主题诗征集
-permalink: /activity/231028/
 ---
 ## 活动介绍
 
