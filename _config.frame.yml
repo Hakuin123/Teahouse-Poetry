@@ -70,9 +70,9 @@ mathjax_enable: false
 
 # comments: support disqus and valine
 valine: # valine setup guide: https://valine.js.org/quickstart.html
-  enable: true
-  appId: lvSbd25K9zYgC31kSzR65eY2-gzGzoHsz
-  appKey: AS5wHlsOHA6cDzSObIJDCVEr
+  enable: false
+  appId: 
+  appKey: 
   lang: 'zh-CN'
   placeholder: '请鉴赏家在此留下评价…\n（昵称、邮箱和网址都是非必填的啦）'
   avatar: 'hide'
